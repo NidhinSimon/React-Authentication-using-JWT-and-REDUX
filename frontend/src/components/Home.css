@@ -1,0 +1,23 @@
+.home-container {
+    height: 100vh; /* Set the container to fill the entire viewport height */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    background-color: #ffffff; /* Add a background color for a nice look */
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .sub-heading {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  

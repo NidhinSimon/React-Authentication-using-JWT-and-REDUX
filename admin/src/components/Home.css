@@ -1,0 +1,45 @@
+.home-container {
+    height: 100vh; /* Set the container to fill the entire viewport height */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    background-color: #ffffff; /* Add a background color for a nice look */
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .sub-heading {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .admin-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .action-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-btn:hover {
+    background-color: #0056b3;
+  }
+  
